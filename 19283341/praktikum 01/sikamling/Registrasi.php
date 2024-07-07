@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <!--<meta http-equiv="X-UA-compatible" content="IE=edge">-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Regitrasi Anggota</title>
+    <!--Bootstrap css-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <!--CSS-->
+    <link href="../sikamling/css/style.css" rel="stylesheet">
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Freeman&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+    <!-- Icon -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css" rel="stylesheet" />
+</head>
+
+<body>
+    <!-- NAVBAR -->
+    <nav>
+        <div class="brand">
+            <h2>Sijadkamling</h2>
+        </div>
+        <ul class="menu-nav">
+            <li class="nav-links"><a href="Home.php">HOME</a></li>
+            <li class="nav-links"><a class="active" href="Registrasi.php">REGISTRASI</a></li>
+            <li class="nav-links"><a href="Keanggotaan.php">KEANGGOTAAN</a></li>
+            <li class="nav-links"><a href="kegiatan.php">JADWAL</a></li>
+        </ul>
+        <div class="hamburger-menu">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
+    </nav>
+    <!-- END -->
+
+    <!--  SECTION REGISTRATION -->
+    <div class="card m-5 p-3 mx-6">
+        <div class="card-header">
+            REGISTRASI SIJADKAMLING
+        </div>
+        <div class="card-body">
+            <div class="row">
+                <div class="col-sm-6 mb-3 mb-sm-1">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Registrasi Anggota Baru</h5>
+                            <p class="card-text">Silahkan klik tombol dibawah ini untuk formulir registrasi sebagai anggota.</p>
+                            <a href="Daftar.php" class="btn btn-primary">Anggota</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Registrasi Jadwal Dan Waktu</h5>
+                            <p class="card-text">Silahkan klik tombol dibawah ini untuk menentukan jadwal dan waktu anda.</p>
+                            <a href="jadwal.php" class="btn btn-primary">Jadwal & Waktu</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- END -->
+
+    <!-- JAVA SCRIPT -->
+    <script src=" https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
+    </script>
+
+    <script src="../sikamling/js/script.js"></script>
+    <!-- END -->
+</body>
+
+</html>
